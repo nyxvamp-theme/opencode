@@ -1,0 +1,263 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "background": "#F7F7FF",
+    "foreground": "#1E1E2E",
+    "cursor_fg": "#F7F7FF",
+    "cursor_bg": "#9655FF",
+    "cursorline": "#E8E8F0",
+    "selection": "#E8D5FF",
+    "line_nr": "#5A5570",
+    "line_nr_selected": "#1E1E2E",
+    "status_fg": "#1E1E2E",
+    "status_bg": "#E8E8F0",
+    "status_inactive_fg": "#5A5570",
+    "status_inactive_bg": "#F7F7FF",
+    "menu_fg": "#1E1E2E",
+    "menu_bg": "#E8E8F0",
+    "menu_sel_fg": "#1E1E2E",
+    "menu_sel_bg": "#E8D5FF",
+    "menu_scroll_fg": "#5A5570",
+    "menu_scroll_bg": "#E8E8F0",
+    "popup_fg": "#1E1E2E",
+    "popup_bg": "#E8E8F0",
+    "virtual_ruler_bg": "#EAEAF0",
+    "match_paren_fg": "#1E1E2E",
+    "match_paren_bg": "#E8D5FF",
+    "comment_fg": "#5A5570",
+    "string_fg": "#B8860B",
+    "string_special_fg": "#9F1239",
+    "constant_fg": "#9F1239",
+    "constant_builtin_fg": "#9F1239",
+    "number_fg": "#C2410C",
+    "boolean_fg": "#9F1239",
+    "function_fg": "#005F87",
+    "function_builtin_fg": "#005F87",
+    "keyword_fg": "#9655FF",
+    "keyword_control_fg": "#9655FF",
+    "operator_fg": "#4A4560",
+    "variable_fg": "#1E1E2E",
+    "variable_builtin_fg": "#9F1239",
+    "type_fg": "#6B46C1",
+    "type_builtin_fg": "#6B46C1",
+    "attribute_fg": "#9655FF",
+    "namespace_fg": "#9655FF",
+    "punctuation_fg": "#1E1E2E",
+    "symbol_fg": "#9F1239",
+    "error_fg": "#E78284",
+    "warning_fg": "#E5C890",
+    "info_fg": "#8CAAEE",
+    "hint_fg": "#8BD5CA",
+    "diff_add_fg": "#A6DA95",
+    "diff_delete_fg": "#E78284",
+    "diff_change_fg": "#E5C890",
+    "markup_heading_fg": "#9655FF",
+    "markup_bold_fg": "#1E1E2E",
+    "markup_italic_fg": "#1E1E2E",
+    "markup_link_url_fg": "#005F87",
+    "markup_link_text_fg": "#9655FF",
+    "markup_quote_fg": "#5A5570"
+  },
+  "theme": {
+    "primary": {
+      "dark": "function_fg",
+      "light": "function_fg"
+    },
+    "secondary": {
+      "dark": "type_fg",
+      "light": "type_fg"
+    },
+    "accent": {
+      "dark": "keyword_fg",
+      "light": "keyword_fg"
+    },
+    "error": {
+      "dark": "error_fg",
+      "light": "error_fg"
+    },
+    "warning": {
+      "dark": "warning_fg",
+      "light": "warning_fg"
+    },
+    "success": {
+      "dark": "string_fg",
+      "light": "string_fg"
+    },
+    "info": {
+      "dark": "info_fg",
+      "light": "info_fg"
+    },
+    "text": {
+      "dark": "foreground",
+      "light": "foreground"
+    },
+    "textMuted": {
+      "dark": "comment_fg",
+      "light": "comment_fg"
+    },
+    "background": {
+      "dark": "background",
+      "light": "background"
+    },
+    "backgroundPanel": {
+      "dark": "status_bg",
+      "light": "status_bg"
+    },
+    "backgroundElement": {
+      "dark": "cursorline",
+      "light": "cursorline"
+    },
+    "border": {
+      "dark": "line_nr",
+      "light": "line_nr"
+    },
+    "borderActive": {
+      "dark": "line_nr_selected",
+      "light": "line_nr_selected"
+    },
+    "borderSubtle": {
+      "dark": "comment_fg",
+      "light": "comment_fg"
+    },
+    "diffAdded": {
+      "dark": "diff_add_fg",
+      "light": "diff_add_fg"
+    },
+    "diffRemoved": {
+      "dark": "diff_delete_fg",
+      "light": "diff_delete_fg"
+    },
+    "diffContext": {
+      "dark": "foreground",
+      "light": "foreground"
+    },
+    "diffHunkHeader": {
+      "dark": "comment_fg",
+      "light": "comment_fg"
+    },
+    "diffHighlightAdded": {
+      "dark": "diff_add_fg",
+      "light": "diff_add_fg"
+    },
+    "diffHighlightRemoved": {
+      "dark": "diff_delete_fg",
+      "light": "diff_delete_fg"
+    },
+    "diffAddedBg": {
+      "dark": "#E8F5E8",
+      "light": "#E8F5E8"
+    },
+    "diffRemovedBg": {
+      "dark": "#F5E8E8",
+      "light": "#F5E8E8"
+    },
+    "diffContextBg": {
+      "dark": "background",
+      "light": "background"
+    },
+    "diffLineNumber": {
+      "dark": "line_nr",
+      "light": "line_nr"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#E8F5E8",
+      "light": "#E8F5E8"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#F5E8E8",
+      "light": "#F5E8E8"
+    },
+    "markdownText": {
+      "dark": "foreground",
+      "light": "foreground"
+    },
+    "markdownHeading": {
+      "dark": "markup_heading_fg",
+      "light": "markup_heading_fg"
+    },
+    "markdownLink": {
+      "dark": "markup_link_url_fg",
+      "light": "markup_link_url_fg"
+    },
+    "markdownLinkText": {
+      "dark": "markup_link_text_fg",
+      "light": "markup_link_text_fg"
+    },
+    "markdownCode": {
+      "dark": "string_fg",
+      "light": "string_fg"
+    },
+    "markdownBlockQuote": {
+      "dark": "markup_quote_fg",
+      "light": "markup_quote_fg"
+    },
+    "markdownEmph": {
+      "dark": "markup_italic_fg",
+      "light": "markup_italic_fg"
+    },
+    "markdownStrong": {
+      "dark": "markup_bold_fg",
+      "light": "markup_bold_fg"
+    },
+    "markdownHorizontalRule": {
+      "dark": "comment_fg",
+      "light": "comment_fg"
+    },
+    "markdownListItem": {
+      "dark": "keyword_fg",
+      "light": "keyword_fg"
+    },
+    "markdownListEnumeration": {
+      "dark": "number_fg",
+      "light": "number_fg"
+    },
+    "markdownImage": {
+      "dark": "markup_link_url_fg",
+      "light": "markup_link_url_fg"
+    },
+    "markdownImageText": {
+      "dark": "markup_link_text_fg",
+      "light": "markup_link_text_fg"
+    },
+    "markdownCodeBlock": {
+      "dark": "foreground",
+      "light": "foreground"
+    },
+    "syntaxComment": {
+      "dark": "comment_fg",
+      "light": "comment_fg"
+    },
+    "syntaxKeyword": {
+      "dark": "keyword_fg",
+      "light": "keyword_fg"
+    },
+    "syntaxFunction": {
+      "dark": "function_fg",
+      "light": "function_fg"
+    },
+    "syntaxVariable": {
+      "dark": "variable_fg",
+      "light": "variable_fg"
+    },
+    "syntaxString": {
+      "dark": "string_fg",
+      "light": "string_fg"
+    },
+    "syntaxNumber": {
+      "dark": "number_fg",
+      "light": "number_fg"
+    },
+    "syntaxType": {
+      "dark": "type_fg",
+      "light": "type_fg"
+    },
+    "syntaxOperator": {
+      "dark": "operator_fg",
+      "light": "operator_fg"
+    },
+    "syntaxPunctuation": {
+      "dark": "punctuation_fg",
+      "light": "punctuation_fg"
+    }
+  }
+}
