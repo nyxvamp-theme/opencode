@@ -16,19 +16,22 @@ a minimalist theme collection, inspired by a blend of gothic and emo aesthetics 
 
 <img src="./assets/nyxvamp-radiance.png" />
 
+4. **jhujuba**: pink-tinted mid-dark theme, sweeter than veil.
+
 ## usage
 
 1. downloads files
  - `nyxvamp-veil.json`
  - `nyxvamp-obsidian.json`
  - `nyxvamp-radiance.json`
+ - `nyxvamp-jhujuba.json`
 2. place into the opencode themes directory
  - unix: `~/.config/opencode/themes/`
  - windows: `%AppData%\opencode\themes\`
 3. issue the theme
  - open opencode
  - use the `/theme` command
- - select `nyxvamp-${variant}` where `${variant}` is one of veil, obsidian or radiance
+ - select `nyxvamp-${variant}` where `${variant}` is one of veil, obsidian, radiance or jhujuba
 
 ## contribution
 
