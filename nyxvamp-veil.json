@@ -24,13 +24,13 @@
     "virtual_ruler_bg": "#2A2A3C",
     "match_paren_fg": "#F28FAD",
     "match_paren_bg": "#1E1E2E",
-    "comment_fg": "#6E6A86",
+    "comment_fg": "#8C88A6",
     "string_fg": "#ABE9B3",
     "string_special_fg": "#F28FAD",
-    "constant_fg": "#F28FAD",
-    "constant_builtin_fg": "#F28FAD",
+    "constant_fg": "#E1C487",
+    "constant_builtin_fg": "#E1C487",
     "number_fg": "#F8BD96",
-    "boolean_fg": "#F28FAD",
+    "boolean_fg": "#E1C487",
     "function_fg": "#96CDFB",
     "function_builtin_fg": "#96CDFB",
     "keyword_fg": "#F5C2E7",
@@ -43,7 +43,7 @@
     "attribute_fg": "#F5C2E7",
     "namespace_fg": "#DDB6F2",
     "punctuation_fg": "#D9E0EE",
-    "symbol_fg": "#F28FAD",
+    "symbol_fg": "#E1C487",
     "error_fg": "#E78284",
     "warning_fg": "#E5C890",
     "info_fg": "#8CAAEE",
@@ -56,7 +56,7 @@
     "markup_italic_fg": "#F5C2E7",
     "markup_link_url_fg": "#96CDFB",
     "markup_link_text_fg": "#F5C2E7",
-    "markup_quote_fg": "#6E6A86"
+    "markup_quote_fg": "#8C88A6"
   },
   "theme": {
     "primary": {
